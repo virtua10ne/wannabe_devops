@@ -2,18 +2,23 @@
 Project: https://roadmap.sh/projects/ssh-remote-server-setup  
 GitHub: https://github.com/virtua10ne/wannabe_devops  
   
-# Full connection syntax works:  
+# Full connection syntax works:
+```
 ssh -i D:\VMs\YC\VM1\ssh_keys crazydiamond@89.169.151.17  
+```
   
 # Alias for server is made and connection 'ssh myserv1' works:  
+```
 Host myserv1  
   Hostname 89.169.151.17  
   User crazydiamond  
   Port 22  
   IdentityFile D:\VMs\YC\VM1\ssh_keys  
   IdentitiesOnly yes  
+```
   
 # Server up and runnig, Fail2Ban is running:  
+```
 crazydiamond@compute-vm-2-2-20-hdd-1729889665559:~$ systemctl status fail2ban.service  
 ● fail2ban.service - Fail2Ban Service  
      Loaded: loaded (/usr/lib/systemd/system/fail2ban.service; enabled; preset: enabled)  
@@ -25,4 +30,4 @@ crazydiamond@compute-vm-2-2-20-hdd-1729889665559:~$ systemctl status fail2ban.se
         CPU: 672ms  
      CGroup: /system.slice/fail2ban.service  
              └─2800 /usr/bin/python3 /usr/bin/fail2ban-server -xf start  
-
+```

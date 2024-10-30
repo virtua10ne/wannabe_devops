@@ -1,5 +1,6 @@
 # yandex practicum git-basics
 ## command list
+
 ```bash
 # global and current repo parameters (repo im in)
 git config list --global
@@ -35,6 +36,23 @@ git push -u origin master
 git push
 ```
 
+Конвенциональные коммиты: https://www.conventionalcommits.org/ru/v1.0.0/
+
+```mermaid
+mindmap
+  root((git))
+    История: log
+      --oneline: хэш и сообщение<br/>в одну линию
+      -5: последние 5 комитов
+    Статус: git status
+      Untracked: не добавленные в staging с помощью add или в .gitignore
+      Changes not staged for commit: новые изменения файлов, уже добавленных в staging
+      Changes to be committed: изменения добавленные в staging
+    Tools
+      Pen and paper
+      Mermaid
+      blabla
+```
 
 # roadmap.sh ssh-remote-server-setup project results
 - Project: https://roadmap.sh/projects/ssh-remote-server-setup  

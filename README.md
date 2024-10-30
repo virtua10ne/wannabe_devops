@@ -60,7 +60,7 @@ mindmap
       Changes to be committed: изменения добавленные в staging
     Коммит: git commit
       -m "Commit message", см. https://www.conventionalcommits.org/ru/v1.0.0
-      --amend: исправляет последний HEAD комммит
+      --amend: исправляет последний HEAD коммит
         --no-edit: оставляет -m "essage" без изменений
 ```
 

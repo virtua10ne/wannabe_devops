@@ -1,6 +1,17 @@
 # yandex practicum git-basics
-## command list
+## Todo
+Extract git-basics from README to yandex-practicum-git-basics.md
 
+## Правила и практики
+- Free MOOC (ru): https://practicum.yandex.ru/git-basics/
+- https://githowto.com/
+- Конвенциональные коммиты: https://www.conventionalcommits.org/ru/v1.0.0/
+
+## command cheatsheat
+### Good example 
+https://elijahmanor.com/blog/git-log
+
+### My
 ```bash
 # global and current repo parameters (repo im in)
 git config list --global
@@ -35,8 +46,7 @@ git push -u origin master
 # for later: just git push
 git push
 ```
-
-Конвенциональные коммиты: https://www.conventionalcommits.org/ru/v1.0.0/
+## Command mind map (to be updated)
 
 ```mermaid
 mindmap
@@ -48,10 +58,11 @@ mindmap
       Untracked: не добавленные в staging с помощью add или в .gitignore
       Changes not staged for commit: новые изменения файлов, уже добавленных в staging
       Changes to be committed: изменения добавленные в staging
-    Tools
-      Pen and paper
-      Mermaid
-      blabla
+    Коммит: git commit
+      -m "Commit message" (см.[conventionalcommits](https://www.conventionalcommits.org/ru/v1.0.0/))
+      --amend: исправляет последний (HEAD) комммит
+        --no-edit: оставляет -m "essage" без изменений
+
 ```
 
 # roadmap.sh ssh-remote-server-setup project results

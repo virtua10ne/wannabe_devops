@@ -59,8 +59,8 @@ mindmap
       Changes not staged for commit: новые изменения файлов, уже добавленных в staging
       Changes to be committed: изменения добавленные в staging
     Коммит: git commit
-      -m "Commit message" (см.[conventionalcommits](https://www.conventionalcommits.org/ru/v1.0.0/))
-      --amend: исправляет последний (HEAD) комммит
+      -m "Commit message", см. https://www.conventionalcommits.org/ru/v1.0.0
+      --amend: исправляет последний HEAD комммит
         --no-edit: оставляет -m "essage" без изменений
 
 ```

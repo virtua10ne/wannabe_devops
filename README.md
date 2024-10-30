@@ -4,14 +4,14 @@ Extract git-basics from README to yandex-practicum-git-basics.md
 
 ## Правила и практики
 - Free MOOC (ru): https://practicum.yandex.ru/git-basics/
-- https://githowto.com/
+- Git howto: https://githowto.com/
 - Конвенциональные коммиты: https://www.conventionalcommits.org/ru/v1.0.0/
 
 ## command cheatsheat
-### Good example 
+### git log
 https://elijahmanor.com/blog/git-log
 
-### My
+### My stuff
 ```bash
 # global and current repo parameters (repo im in)
 git config list --global

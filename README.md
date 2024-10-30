@@ -39,6 +39,10 @@ git add <filename>
 
 # commit changes from staging area
 git commit -m "Message to commit with"
+# add and commit something into the last (HEAD) commit
+git commit --amend -m "New commit message"
+# or without new -m "essage"
+git commit --amend --no-edit
 
 # for the first time: push local commit to master branch of origin repo
 git push -u origin master

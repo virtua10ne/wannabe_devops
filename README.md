@@ -1,13 +1,51 @@
-# wannabe_devops  
-Project: https://roadmap.sh/projects/ssh-remote-server-setup  
-GitHub: https://github.com/virtua10ne/wannabe_devops  
+# yandex practicum git-basics
+## command list
+```bash
+# global and current repo parameters (repo im in)
+git config list --global
+git config list
+
+# generate key pair with the specified encryption algorithm (ed25519 is strong and keys are compact)
+ssh-keygen -t ed25519 -C "youremail@mail"
+# then add public key part to GitHub settings, and store private key part in ~/.ssh/ 
+# Optionally, configure github host in ~/.ssh/config
+# This steps allows you to use GitHub (push) without additional authentication.
+
+# init local repo
+git init
+
+# link local repo to remote repo as origin
+git remote add origin git@github.com:virtua10ne/desktop-tutorial.git
+
+# make some new files or changes to files
+git status
+# check that there is files with changes
+
+# add whole dir or specific file to staging area
+git add .
+git add <filename>
+
+# commit changes from staging area
+git commit -m "Message to commit with"
+
+# for the first time: push local commit to master branch of origin repo
+git push -u origin master
+
+# for later: just git push
+git push
+```
+
+
+# roadmap.sh ssh-remote-server-setup project results
+- Project: https://roadmap.sh/projects/ssh-remote-server-setup  
+- GitHub: https://github.com/virtua10ne/wannabe_devops  
   
-# Full connection syntax works:
+## Full connection syntax works:
 ```
 ssh -i D:\VMs\YC\VM1\ssh_keys crazydiamond@89.169.151.17  
 ```
   
-# Alias for server is made and connection 'ssh myserv1' works:  
+## Alias for server is made and connection 'ssh myserv1' works:  
 ```
 Host myserv1  
   Hostname 89.169.151.17  
@@ -17,7 +55,7 @@ Host myserv1
   IdentitiesOnly yes  
 ```
   
-# Server up and runnig, Fail2Ban is running:  
+## Server up and runnig, Fail2Ban is running:  
 ```
 crazydiamond@compute-vm-2-2-20-hdd-1729889665559:~$ systemctl status fail2ban.service  
 ● fail2ban.service - Fail2Ban Service  

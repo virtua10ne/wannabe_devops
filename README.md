@@ -79,7 +79,7 @@ mindmap
       --amend -m 'message': исправляет последний HEAD коммит
         --no-edit: оставляет -m "message" без изменений
     Восстановление: git restore
-      <file>: restore unstaged file to last commited
+      file: restore unstaged file to last commited
       --staged file/.: unstage file/dir
       
     Откат: git reset

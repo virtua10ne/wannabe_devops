@@ -26,23 +26,35 @@ ssh-keygen -t ed25519 -C "youremail@mail"
 # init local repo
 git init
 
-# link local repo to remote repo as origin
-git remote add origin git@github.com:virtua10ne/desktop-tutorial.git
+# link local repo to remote repo as "origin"
+git remote add origin git@github.com:virtua10ne/wannabe_devops.git
 
-# make some new files or changes to files
+# check if there is new (untracked) or modified files
 git status
-# check that there is files with changes
 
-# add whole dir or specific file to staging area
+# add file or dir to staging area
 git add .
-git add <filename>
+git add <file>
+
+# unstage file or dir
+git restore --staged <file>
+git restore --staged .
+
+# restore changes in unstaged file to last commited version
+# if staged use --staged first
+git restore <file>
+
+# reset to commit hash
+git reset --hard <hash>
 
 # commit changes from staging area
 git commit -m "Message to commit with"
-# add and commit something into the last (HEAD) commit
+
+# commit something into the last (HEAD) commit
 git commit --amend -m "New commit message"
-# or without new -m "essage"
+# or without new -m "message"
 git commit --amend --no-edit
+# used for something you forgot to add and what should be in that same commit
 
 # for the first time: push local commit to master branch of origin repo
 git push -u origin master
@@ -64,8 +76,14 @@ mindmap
       Changes to be committed: изменения добавленные в staging
     Коммит: git commit
       -m "Commit message", см. https://www.conventionalcommits.org/ru/v1.0.0
-      --amend: исправляет последний HEAD коммит
-        --no-edit: оставляет -m "essage" без изменений
+      --amend -m 'message': исправляет последний HEAD коммит
+        --no-edit: оставляет -m "message" без изменений
+    Восстановление: git restore
+      <file>: restore unstaged file to last commited
+      --staged file/.: unstage file/dir
+      
+    Откат: git reset
+      --hard <hash>: откатывает коммиты до указанного
 ```
 
 # roadmap.sh ssh-remote-server-setup project results

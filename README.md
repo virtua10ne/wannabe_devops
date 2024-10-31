@@ -75,15 +75,15 @@ mindmap
       Changes not staged for commit: новые изменения файлов, уже добавленных в staging
       Changes to be committed: изменения добавленные в staging
     Коммит: git commit
-      -m "Commit message", см. https://www.conventionalcommits.org/ru/v1.0.0
-      --amend -m 'message': исправляет последний HEAD коммит
-        --no-edit: оставляет -m "message" без изменений
+      -m message, см. https://www.conventionalcommits.org/ru/v1.0.0
+      --amend -m message: исправляет последний HEAD коммит
+        --no-edit: оставляет -m message без изменений
     Восстановление: git restore
       file: restore unstaged file to last commited
       --staged file/.: unstage file/dir
       
     Откат: git reset
-      --hard <hash>: откатывает коммиты до указанного
+      --hard hash: откатывает коммиты до указанного
 ```
 
 # roadmap.sh ssh-remote-server-setup project results

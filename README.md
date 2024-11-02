@@ -32,9 +32,10 @@ git remote add origin git@github.com:virtua10ne/wannabe_devops.git
 # check if there is new (untracked) or modified files
 git status
 
-# add file or dir to staging area
+# add file, dir, or all to staging area
 git add .
 git add <file>
+git add --all
 
 # unstage file or dir
 git restore --staged <file>
@@ -67,23 +68,33 @@ git push
 ```mermaid
 mindmap
   root((git))
-    История: log
-      --oneline: хэш и сообщение<br/>в одну линию
-      -5: последние 5 комитов
-    Статус: git status
+    add: отслеживание
+      . : текущая дира
+      file: указанный файл
+      --all: всё изменённое
+    log: история
+      --oneline: короткий шэш и сообщение
+      -N: последние N коммитов
+    status: статус
       Untracked: не добавленные в staging с помощью add или в .gitignore
       Changes not staged for commit: новые изменения файлов, уже добавленных в staging
       Changes to be committed: изменения добавленные в staging
-    Коммит: git commit
-      -m message, см. https://www.conventionalcommits.org/ru/v1.0.0
-      --amend -m message: исправляет последний HEAD коммит
+    commit: коммит
+      -m message, https://www.conventionalcommits.org/ru/v1.0.0
+      --amend: исправляет последний HEAD коммит
+        -m message: с новым сообщением
         --no-edit: оставляет -m message без изменений
-    Восстановление: git restore
+    restore: восстановление
       file: restore unstaged file to last commited
       --staged file/.: unstage file/dir
-      
-    Откат: git reset
+    reset: откат
       --hard hash: откатывает коммиты до указанного
+    diff: отличия коммитов
+      --staged: для изменений staged файлов
+      A B: отличия между хэшами
+    всякое
+      --no-pager: !!!
+      .gitignore: регулярки
 ```
 
 # roadmap.sh ssh-remote-server-setup project results

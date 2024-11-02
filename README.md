@@ -81,7 +81,7 @@ mindmap
       Changes to be committed: изменения добавленные в staging
     commit: коммит
       -m message, https://www.conventionalcommits.org/ru/v1.0.0
-      --amend: исправляет последний HEAD коммит
+      --amend: исправляет последний HEAD коммит. Работает до push.
         -m message: с новым сообщением
         --no-edit: оставляет -m message без изменений
     restore: восстановление

@@ -91,7 +91,16 @@ mindmap
       --hard hash: откатывает коммиты до указанного
     diff: отличия коммитов
       --staged: для изменений staged файлов
-      A B: отличия между хэшами
+      A B: отличия между хэшами или ветками
+    branch: посмотреть локальные ветки
+      -a: посмотреть все ветки
+      NewBranchName: создать новую ветку
+      -d/-D localBranchName: удалить локальную ветку
+    checkout: чекаут
+      BranchName: переключиться на ветку
+      -b BranchName: создать ветку и переключиться
+    push: запушить в облако
+      origin --delete remoteBranchName
     всякое
       --no-pager: !!!
       .gitignore: регулярки

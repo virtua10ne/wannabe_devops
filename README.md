@@ -1,6 +1,7 @@
 # Linux  
 Rebrain: Linux Basic  
-> todo: bash profile and bashrc  
+> todo: bash profile and bashrc
+> move Linux to separate .md file
 
 <img src="https://github.com/virtua10ne/wannabe_devops/blob/main/certs/rebrain_lb_cert.JPG" width="800" />
 

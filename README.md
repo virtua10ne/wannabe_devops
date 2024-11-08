@@ -1,10 +1,12 @@
 # Linux  
-Done **Rebrain: Linux Basic**  
++Rebrain: Linux Basic
+
 > todo: bash profile and bashrc  
-> todo: cert  
+
+![Alt text](cert/rebrain_lb_cert.JPG)
 
 # Git
-Done **Yandex Practicum Git Basics**.   
++ Yandex Practicum Git Basics
 Some results and gathered info:  
 https://github.com/virtua10ne/wannabe_devops/blob/main/git.md
 

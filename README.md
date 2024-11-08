@@ -1,9 +1,8 @@
 # Linux  
-+Rebrain: Linux Basic
-
+Rebrain: Linux Basic  
 > todo: bash profile and bashrc  
 
-![Alt text](cert/rebrain_lb_cert.JPG)
+<img src="https://github.com/virtua10ne/wannabe_devops/blob/main/certs/rebrain_lb_cert.JPG" width="800" />
 
 # Git
 + Yandex Practicum Git Basics

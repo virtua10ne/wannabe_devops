@@ -1,7 +1,7 @@
 ## my Git and GitHub progress roadmap
 https://roadmap.sh/git-github?s=64665133410780a6d9b83b17
 
-## Docs and practics
+## Docs
 - Free MOOC (ru): https://practicum.yandex.ru/git-basics/
 - Git HowTo: https://githowto.com/
 - Git visual cheatsheet: https://ndpsoftware.com/git-cheatsheet.html
@@ -10,6 +10,7 @@ https://roadmap.sh/git-github?s=64665133410780a6d9b83b17
 - Dive deeper in git log: https://elijahmanor.com/blog/git-log
 - All Git commands: https://git-scm.com/docs/git#_git_commands
 
+## Practice
 ```bash
 # for no pager
 --no-pager

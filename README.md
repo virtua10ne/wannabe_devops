@@ -4,8 +4,8 @@ Rebrain: Linux Basic
 
 <img src="https://github.com/virtua10ne/wannabe_devops/blob/main/certs/rebrain_lb_cert.JPG" width="800" />
 
-# Git
-+ Yandex Practicum Git Basics
+# Git  
+Yandex Practicum Git Basics  
 Some results and gathered info:  
 https://github.com/virtua10ne/wannabe_devops/blob/main/git.md
 

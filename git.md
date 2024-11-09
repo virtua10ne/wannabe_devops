@@ -2,8 +2,9 @@
 https://roadmap.sh/git-github?s=64665133410780a6d9b83b17
 
 ## Docs
-- Free MOOC (ru): https://practicum.yandex.ru/git-basics/
-- Git HowTo: https://githowto.com/
+- Free MOOC (ru): https://practicum.yandex.ru/git-basics/  
+- Git HowTo: https://githowto.com/  
+- Lots of examples: https://antonz.org/git-by-example/  
 - Git visual cheatsheet: https://ndpsoftware.com/git-cheatsheet.html
 - GitHub Training Kit: https://training.github.com/
 - Conventional commits: https://www.conventionalcommits.org/ru/v1.0.0/

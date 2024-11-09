@@ -1,20 +1,21 @@
 # Linux  
 Rebrain: Linux Basic  
 > todo: bash profile and bashrc  
+> move Linux to separate .md file  
 
-<img src="https://github.com/virtua10ne/wannabe_devops/blob/main/certs/rebrain_lb_cert.JPG" width="800" />
+<img src="https://github.com/virtua10ne/wannabe_devops/blob/main/certs/rebrain_lb_cert.JPG" width="800" />  
 
 # Git  
 Yandex Practicum Git Basics  
 Some results and gathered info:  
-https://github.com/virtua10ne/wannabe_devops/blob/main/git.md
+https://github.com/virtua10ne/wannabe_devops/blob/main/git.md  
 
 # Roadmap.sh projects  
 ## roadmap.sh ssh-remote-server-setup project results  
 - Project: https://roadmap.sh/projects/ssh-remote-server-setup   
 - GitHub: https://github.com/virtua10ne/wannabe_devops  
   
-### Full connection syntax works:
+### Full connection syntax works:  
 ```
 ssh -i D:\VMs\YC\VM1\ssh_keys crazydiamond@89.169.151.17  
 ```

@@ -1,14 +1,15 @@
 # Linux  
 Rebrain: Linux Basic  
-> todo: bash profile and bashrc  
-> move Linux to separate .md file  
-
-<img src="https://github.com/virtua10ne/wannabe_devops/blob/main/certs/rebrain_lb_cert.JPG" width="800" />  
+https://github.com/virtua10ne/wannabe_devops/blob/main/linux.md  
 
 # Git  
 Yandex Practicum Git Basics  
-Some results and gathered info:  
 https://github.com/virtua10ne/wannabe_devops/blob/main/git.md  
+
+# Docker  
+Yandex Practicum Docker  
+https://github.com/virtua10ne/wannabe_devops/blob/main/docker.md  
+
 
 # Roadmap.sh projects  
 ## roadmap.sh ssh-remote-server-setup project results  

@@ -1,3 +1,8 @@
+# Resources
+- Free MOOC (ru): https://yandex.cloud/ru/training/docker
+- Sid Palas Docker big guide: https://courses.devopsdirective.com/docker-beginner-to-pro/lessons/00-introduction/01-main
+
+
 ## cgroups 
 Consist of Core for process hierarchy, and cgroups controllers.  
 Controllers 1-2 used often.  
